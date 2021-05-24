@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.view.ViewGroup[android.widget.TextView[contains(@text, \"Email address *\")]]/preceding-sibling::android.widget.EditText"
+}

@@ -1,0 +1,147 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to see the homepage",
+    "children" : [ {
+      "name" : "Given I launches the app",
+      "uid" : "88546333b0cc2913",
+      "parentUid" : "9fbb965eb3570dbe6e5bbb60716c297a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620397866520,
+        "stop" : 1620397876405,
+        "duration" : 9885
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "c341a458 10-10" ]
+    }, {
+      "name" : "Then I should be landed on homepage",
+      "uid" : "ac5ec9ad4a4a1170",
+      "parentUid" : "9fbb965eb3570dbe6e5bbb60716c297a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620397876405,
+        "stop" : 1620397878523,
+        "duration" : 2118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "c341a458 10-10" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "ddaf8296875d0b87",
+      "parentUid" : "9fbb965eb3570dbe6e5bbb60716c297a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620397878524,
+        "stop" : 1620397878525,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "c341a458 10-10" ]
+    } ],
+    "uid" : "9fbb965eb3570dbe6e5bbb60716c297a"
+  }, {
+    "name" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to navigate to the community selection page",
+    "children" : [ {
+      "name" : "When I enter email id in existing_user_format",
+      "uid" : "29f3299b6b1dce68",
+      "parentUid" : "aac96a5767406e161902c7562a014e82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620397878598,
+        "stop" : 1620397885925,
+        "duration" : 7327
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "c341a458 10-10" ]
+    }, {
+      "name" : "And I enter otp",
+      "uid" : "880602a57e51bc7c",
+      "parentUid" : "aac96a5767406e161902c7562a014e82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620397885925,
+        "stop" : 1620397899725,
+        "duration" : 13800
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "c341a458 10-10" ]
+    }, {
+      "name" : "Then I should be on community selection page",
+      "uid" : "a33d49fec4f73a07",
+      "parentUid" : "aac96a5767406e161902c7562a014e82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620397899725,
+        "stop" : 1620397906908,
+        "duration" : 7183
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "c341a458 10-10" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "af33387802339f40",
+      "parentUid" : "aac96a5767406e161902c7562a014e82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620397906909,
+        "stop" : 1620397906911,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "c341a458 10-10" ]
+    } ],
+    "uid" : "aac96a5767406e161902c7562a014e82"
+  }, {
+    "name" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to navigate to the app",
+    "children" : [ {
+      "name" : "When I select the existing community",
+      "uid" : "39435fdd0208da37",
+      "parentUid" : "6fe646f936541aa35a3a2b15944a10e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620397907046,
+        "stop" : 1620397921205,
+        "duration" : 14159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "c341a458 10-10" ]
+    }, {
+      "name" : "Then I should be able to navigate to the app homepage",
+      "uid" : "9385148d0cc2e63b",
+      "parentUid" : "6fe646f936541aa35a3a2b15944a10e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620397921205,
+        "stop" : 1620397951111,
+        "duration" : 29906
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "c341a458 10-10" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "d463ebc449645daa",
+      "parentUid" : "6fe646f936541aa35a3a2b15944a10e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620397951112,
+        "stop" : 1620397951113,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "c341a458 10-10" ]
+    } ],
+    "uid" : "6fe646f936541aa35a3a2b15944a10e6"
+  } ]
+}

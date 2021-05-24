@@ -1,0 +1,29 @@
+{
+    "my_profile_details": {
+        "job_title": "QA Specialist",
+        "industry_name": "Media",
+        "company_name" : "Makeen",
+        "short_intro": "I am working as a Senior QA engineer"
+    },
+
+    "some_random_text": {
+        "text": "My name is Jeet Adhikari.I works as a Senior QA Engineer.I'm Posting some data for testing purpose."
+    },
+
+    "youtube_url": {
+        "url": "https://www.youtube.com/watch?v=NJhZbY8UeFw&ab_channel=Front-endTestingwithKevin"
+    },
+
+    "poll_question_details": {
+        "question": "Who is better footballer?",
+        "option_one": "Cristiano Ronaldo",
+        "option_two": "Lionel Messi"
+    },
+
+    "group_details": {
+        "group_name": "New group for testing",
+        "group_desc": "creating this group for testing purpose",
+        "group_rules": "No rules"
+    }
+
+}

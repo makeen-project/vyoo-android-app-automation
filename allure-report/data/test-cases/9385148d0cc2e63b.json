@@ -1,0 +1,278 @@
+{
+  "uid" : "9385148d0cc2e63b",
+  "name" : "Then I should be able to navigate to the app homepage",
+  "fullName" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to navigate to the app.Then I should be able to navigate to the app homepage",
+  "historyId" : "9e362780162a4d9d163ad981ccd4fd63",
+  "time" : {
+    "start" : 1620397921205,
+    "stop" : 1620397951111,
+    "duration" : 29906
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1620397921207,
+        "stop" : 1620397921965,
+        "duration" : 758
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "51c8f17809e5dbff",
+        "name" : "Request",
+        "source" : "51c8f17809e5dbff.json",
+        "type" : "application/json",
+        "size" : 106
+      }, {
+        "uid" : "c2910b0874029dcc",
+        "name" : "Response",
+        "source" : "c2910b0874029dcc.json",
+        "type" : "application/json",
+        "size" : 422
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1620397921977,
+        "stop" : 1620397922070,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "812d71af2f99202c",
+        "name" : "Request",
+        "source" : "812d71af2f99202c.json",
+        "type" : "application/json",
+        "size" : 106
+      }, {
+        "uid" : "a7c105125360d24a",
+        "name" : "Response",
+        "source" : "a7c105125360d24a.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1620397922481,
+        "stop" : 1620397922570,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1f4310ac5ba199af",
+        "name" : "Request",
+        "source" : "1f4310ac5ba199af.json",
+        "type" : "application/json",
+        "size" : 106
+      }, {
+        "uid" : "d76a15b11d704e63",
+        "name" : "Response",
+        "source" : "d76a15b11d704e63.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1620397922979,
+        "stop" : 1620397923061,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9ef16d906b87c8f3",
+        "name" : "Request",
+        "source" : "9ef16d906b87c8f3.json",
+        "type" : "application/json",
+        "size" : 106
+      }, {
+        "uid" : "258d727dd554015e",
+        "name" : "Response",
+        "source" : "258d727dd554015e.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1620397923481,
+        "stop" : 1620397923565,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa2d73654d7d9f2c",
+        "name" : "Request",
+        "source" : "aa2d73654d7d9f2c.json",
+        "type" : "application/json",
+        "size" : 106
+      }, {
+        "uid" : "d5dc25d71190073c",
+        "name" : "Response",
+        "source" : "d5dc25d71190073c.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1620397923989,
+        "stop" : 1620397926073,
+        "duration" : 2084
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "37c174e678095670",
+        "name" : "Request",
+        "source" : "37c174e678095670.json",
+        "type" : "application/json",
+        "size" : 106
+      }, {
+        "uid" : "55fcb1d4a19d44f4",
+        "name" : "Response",
+        "source" : "55fcb1d4a19d44f4.json",
+        "type" : "application/json",
+        "size" : 294
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1620397926090,
+        "stop" : 1620397930949,
+        "duration" : 4859
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db58e05b748fb69f",
+        "name" : "Request",
+        "source" : "db58e05b748fb69f.json",
+        "type" : "application/json",
+        "size" : 106
+      }, {
+        "uid" : "3a07ecc54216451e",
+        "name" : "Response",
+        "source" : "3a07ecc54216451e.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/37a1d52f-2f9f-4601-a30a-d5533f96f6f4/displayed",
+      "time" : {
+        "start" : 1620397930963,
+        "stop" : 1620397951110,
+        "duration" : 20147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "49339309d993fed7",
+        "name" : "Response",
+        "source" : "49339309d993fed7.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 15
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to navigate to the app"
+  }, {
+    "name" : "testClass",
+    "value" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to navigate to the app"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should be able to navigate to the app homepage"
+  }, {
+    "name" : "package",
+    "value" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to navigate to the app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "c341a458 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9385148d0cc2e63b.json",
+  "parameterValues" : [ "c341a458 10-10" ]
+}

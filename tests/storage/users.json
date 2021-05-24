@@ -1,0 +1,22 @@
+{
+    "existing_user_format": {
+        "email": "jeet+2@makeen.io"
+    },
+
+    "user_associted_with_more_communities": {
+        "email": "jeet@makeen.io"
+    },
+
+    "user_associated_with_one_community": {
+        "email": "jeet+2@makeen.io"
+    },
+
+    "community_url": {
+        "url": "professionalcommunity"
+    },
+
+    "personal_details": {
+        "firstName": "Jeet",
+        "lastName": "Adhikari"
+    }
+}

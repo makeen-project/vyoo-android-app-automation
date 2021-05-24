@@ -1,0 +1,239 @@
+{
+  "uid" : "88546333b0cc2913",
+  "name" : "Given I launches the app",
+  "fullName" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to see the homepage.Given I launches the app",
+  "historyId" : "561450fe4893de21511d337f138dfce0",
+  "time" : {
+    "start" : 1620397866520,
+    "stop" : 1620397876405,
+    "duration" : 9885
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/appium/app/launch",
+      "time" : {
+        "start" : 1620397866526,
+        "stop" : 1620397873544,
+        "duration" : 7018
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1620397873550,
+        "stop" : 1620397873933,
+        "duration" : 383
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d518346026cdaf96",
+        "name" : "Request",
+        "source" : "d518346026cdaf96.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "8759102686bea776",
+        "name" : "Response",
+        "source" : "8759102686bea776.json",
+        "type" : "application/json",
+        "size" : 422
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1620397873988,
+        "stop" : 1620397874051,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f2a0847833fd927a",
+        "name" : "Request",
+        "source" : "f2a0847833fd927a.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "122cf5badd62ea03",
+        "name" : "Response",
+        "source" : "122cf5badd62ea03.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1620397874492,
+        "stop" : 1620397875317,
+        "duration" : 825
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f19a3565e356c92f",
+        "name" : "Request",
+        "source" : "f19a3565e356c92f.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "d4055405dd5efe43",
+        "name" : "Response",
+        "source" : "d4055405dd5efe43.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1620397875337,
+        "stop" : 1620397876069,
+        "duration" : 732
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b5f8cdd3b69aaa3c",
+        "name" : "Request",
+        "source" : "b5f8cdd3b69aaa3c.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "68126177ac870ce8",
+        "name" : "Response",
+        "source" : "68126177ac870ce8.json",
+        "type" : "application/json",
+        "size" : 148
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1620397876103,
+        "stop" : 1620397876194,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24dfba4969e87852",
+        "name" : "Request",
+        "source" : "24dfba4969e87852.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "b9c70986ca00d529",
+        "name" : "Response",
+        "source" : "b9c70986ca00d529.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/touch/perform",
+      "time" : {
+        "start" : 1620397876217,
+        "stop" : 1620397876400,
+        "duration" : 183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a80e0c7f6aaca701",
+        "name" : "Request",
+        "source" : "a80e0c7f6aaca701.json",
+        "type" : "application/json",
+        "size" : 142
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 11
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to see the homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to see the homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I launches the app"
+  }, {
+    "name" : "package",
+    "value" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to see the homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "c341a458 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88546333b0cc2913.json",
+  "parameterValues" : [ "c341a458 10-10" ]
+}

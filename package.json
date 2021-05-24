@@ -1,0 +1,31 @@
+{
+  "name": "vyoo-android-automation-framework",
+  "version": "1.0.0",
+  "description": "Test framework for automating Vyoo mobile app with appium using webdriverio",
+  "scripts": {
+    "android.app": "./node_modules/.bin/wdio ./config/wdio.android.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^6.8.1",
+    "@wdio/appium-service": "^6.11.0",
+    "@wdio/cli": "^6.0.1",
+    "@wdio/cucumber-framework": "^6.11.1",
+    "@wdio/local-runner": "^6.11.3",
+    "@wdio/mocha-framework": "^6.10.4",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0",
+    "chai": "4.2.0",
+    "chai-string": "1.5.0",
+    "chromedriver": "^81.0.0",
+    "glob": "7.1.4",
+    "webdriverio": "^6.11.3",
+    "@rpii/wdio-html-reporter": "~6.3.2"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.13.8",
+    "clear": "^0.1.0"
+  }
+}

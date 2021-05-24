@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "aac96a5767406e161902c7562a014e82",
+    "name" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to navigate to the community selection page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "9fbb965eb3570dbe6e5bbb60716c297a",
+    "name" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to see the homepage",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "6fe646f936541aa35a3a2b15944a10e6",
+    "name" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to navigate to the app",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "a82926f1c064eca8",
+  "name" : "Hook",
+  "fullName" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to see the homepage.Hook",
+  "historyId" : "63c453b72574648d607b82a667a1cbff",
+  "time" : {
+    "start" : 1620397866516,
+    "stop" : 1620397866519,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to see the homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to see the homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook"
+  }, {
+    "name" : "package",
+    "value" : "Vyoo App - Onboarding journeys for existing user: As an existing user, I should be able to see the homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "c341a458 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a82926f1c064eca8.json",
+  "parameterValues" : [ "c341a458 10-10" ]
+}
