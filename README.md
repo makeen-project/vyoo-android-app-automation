@@ -8,7 +8,7 @@ Automation Framework for Vyoo Android App
   4. Verify above prerequite by java --version, node -v and npm -v
 
 # To run the framework use following steps:-
-  1. Clone this repository using "git clone ".
+  1. Clone this repository using "git clone https://github.com/makeen-project/vyoo-android-app-automation.git".
   2. Run command "yarn install" or "npm Install", to install all dependencies.
   3. Make sure ANDROID_HOME and JAVA_HOME environment variable are set properly.
   4. Run Appium server or This framwork auto start/stop the appium.
