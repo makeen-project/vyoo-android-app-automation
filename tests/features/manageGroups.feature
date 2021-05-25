@@ -15,19 +15,19 @@ Feature: Vyoo App - Manage Groups feature
         When I unselect other communities
         And I select one community
         Then I should be able to navigate to the app homepage
-    
+
     Scenario: As an existing user, I should be able to navigate to group section
         When I tap on Humburger menu
         And I select groups button
         Then I should be on groups page
-    
+
     Scenario: As an existing user, I should be able to discard from group creation
         When I select groups button
         And I click to create groups
         And I cancel the group creation
         And I dismiss the pop up
         Then I should be on groups page
-    
+
     Scenario: As an existing user, I should be able to create groups
         When I select groups button
         And I click to create groups
@@ -38,12 +38,10 @@ Feature: Vyoo App - Manage Groups feature
         And I select the group location
         And I create the group
         Then I should see the group listed in the group section
-    
-    # Scenario: As an existing user, I should be able to delete the create group
-    #     When I tap on Humburger menu
-    #     And I select groups
-    #     And I select to view the existing group
-    #     And I select to delete the group
-    #     And I confirm the delete pop up
-    #     Then the group should be deleted
-    #     And I should be on groups page
+
+    Scenario: As an existing user, I should be able to delete the create group
+        When I select groups button
+        And I select to view the existing group
+        And I select to delete the group
+        And I confirm the delete pop up
+        Then I should be on groups page

@@ -72,6 +72,26 @@ class ManageGroupsPage {
         return $(selector);
     }
 
+    get viewExistingGroup() {
+        const selector = SELECTORS.ANDROID.VIEW_EXISTING_GROUP;
+        return $(selector);
+    }
+
+    get groupOptionButton() {
+        const selector = SELECTORS.ANDROID.GROUP_OPTION_BUTTON;
+        return $(selector);
+    }
+
+    get deleteGroupButton() {
+        const selector = SELECTORS.ANDROID.DELETE_GROUP_BUTTON;
+        return $(selector);
+    }
+
+    get removeGroupConfirmButton() {
+        const selector = SELECTORS.ANDROID.REMOVE_GROUP_CONFIRM_BUTTON;
+        return $(selector);
+    }
+
     selectHumburgerMenu() {
         this.humburgerMenu.waitForExist();
         this.humburgerMenu.touchAction('tap');
@@ -165,6 +185,27 @@ class ManageGroupsPage {
             { action: 'moveTo', options: { x: 400, y: 200 }},
             { action: 'release' }
         ]);
+    }
+
+    selectToViewExistingGroup() {
+        this.viewExistingGroup.waitForExist();
+        this.viewExistingGroup.touchAction('tap');
+    }
+
+    selectGroupOptionButton() {
+        driver.pause(1000);
+        this.groupOptionButton.waitForExist();
+        this.groupOptionButton.touchAction('tap');
+    }
+
+    clickOnDeleteGroupbutton() {
+        this.deleteGroupButton.waitForExist();
+        this.deleteGroupButton.touchAction('tap');
+    }
+
+    clickOnRemoveGroupConfirmButton() {
+        this.removeGroupConfirmButton.waitForExist();
+        this.removeGroupConfirmButton.touchAction('tap');
     }
 
 }
