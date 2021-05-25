@@ -14,7 +14,16 @@ const MANAGE_GROUPS_SELECTORS = {
        GROUP_LOCATION_SEARCH_BUTTON: '//android.widget.EditText[@text="Search"]',
        GROUP_LOCATION_SEARCH_RESULT: '//android.widget.Button[android.widget.TextView[contains(@text, "Kolkata, West Bengal, India")]]',
        GROUP_CREATE_BUTTON: '//android.widget.Button[android.widget.TextView[contains(@text, "Create Group")]]',
-       CREATED_GROUP: '//android.widget.TextView[@text= "New group for testing0"]'
+       CREATED_GROUP: '//android.widget.TextView[@text= "New group for testing0"]',
+       VIEW_EXISTING_GROUP: '//android.view.ViewGroup[android.widget.TextView[contains(@text, "New group for testing")]]/parent::android.view.ViewGroup/parent::android.widget.Button',
+       GROUP_OPTION_BUTTON: '//android.widget.Button[android.widget.ImageView]',
+       DELETE_GROUP_BUTTON: '//android.view.ViewGroup[android.widget.TextView[contains(@text, "Delete Group")]]/parent::android.view.ViewGroup/parent::android.widget.Button',
+       REMOVE_GROUP_CONFIRM_BUTTON: '//android.widget.Button[android.widget.TextView[contains(@text, "Delete")]]',
+
+
+
+
+
 
     },
 

@@ -1,4 +1,5 @@
 const manageGroupsPage = require('../pages/manageGroupsPage');
+const existingUserPage = require('../pages/existingUserPage');
 
 When(/^I tap on Humburger menu$/, () => {
     manageGroupsPage.selectHumburgerMenu();
@@ -64,3 +65,19 @@ Then(/^I should see the group listed in the group section$/, () => {
     driver.back();
     driver.back();
 });
+
+When(/^I select to view the existing group$/, () => {
+    manageGroupsPage.selectToViewExistingGroup();
+});
+
+When(/^I select to delete the group$/, () => {
+    manageGroupsPage.selectGroupOptionButton();
+    manageGroupsPage.clickOnDeleteGroupbutton();
+});
+
+When(/^I confirm the delete pop up$/, () => {
+    manageGroupsPage.clickOnRemoveGroupConfirmButton();
+    driver.pause(5000);
+    existingUserPage.clickRateApp();
+});
+
