@@ -6,7 +6,7 @@ exports.config = {
   runner: 'local',
   framework: 'cucumber',
   specs: [
-    './tests/features/**/manageGroups.feature'
+    './tests/features/**/*.feature'
   ],
   sync: true,
   logLevel: 'error',
