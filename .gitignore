@@ -31,7 +31,8 @@ Thumbs.db
 # Screenshots and allure reports
 allure-results/
 screenshots/
-allure-reports/
+allure-report/
+app/
 
 # package-lock.json and yarn.lock
 package-lock.json
