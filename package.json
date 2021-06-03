@@ -1,12 +1,13 @@
 {
   "name": "vyoo-android-automation-framework",
   "version": "1.0.0",
+  "main": "wdio.android.config.js",
   "description": "Test framework for automating Vyoo mobile app with appium using webdriverio",
   "scripts": {
-    "android.app": "./node_modules/.bin/wdio ./config/wdio.android.config.js"
+    "android.app": "wdio ./config/wdio.android.config.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jeet Adhikari",
   "license": "ISC",
   "devDependencies": {
     "@rpii/wdio-html-reporter": "~6.3.2",
