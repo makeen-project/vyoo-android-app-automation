@@ -12,7 +12,7 @@ Automation Framework for Vyoo Android App
   2. Run command "yarn install" or "npm install", to install all dependencies.
   3. This framwork auto start/stop the appium.
   4. Create App folder in current directory if it's missing and download Vyoo dev app and put .apk file in app folder.
-  5. create a virtual device from AVD Manager ex: Pixel_2_API_28
+  5. Create a virtual device from AVD Manager ex: Pixel_2_API_28
   6. run "emulator @Pixel_2_API_28" this command to start the emulator
   7. Add configuration of the emulator in device desired capabilities in "wdio.android.config.js"
   8. Run command "npm run android.app" to run android test
