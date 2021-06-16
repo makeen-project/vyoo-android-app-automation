@@ -77,7 +77,7 @@ When(/^I select to delete the group$/, () => {
 
 When(/^I confirm the delete pop up$/, () => {
     manageGroupsPage.clickOnRemoveGroupConfirmButton();
-    driver.pause(5000);
-    existingUserPage.clickRateApp();
+   // driver.pause(5000);
+   // existingUserPage.clickRateApp();
 });
 

@@ -6,7 +6,7 @@ exports.config = {
   runner: 'local',
   framework: 'cucumber',
   specs: [
-    './tests/features/**/createPost.feature'
+    './tests/features/**/onboardingExistingUser.feature'
   ],
   sync: true,
   logLevel: 'error',
