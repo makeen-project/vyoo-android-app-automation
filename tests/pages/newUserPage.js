@@ -51,6 +51,11 @@ class NewUserPage {
         return $(selector);
     }
 
+    get backPhotoButton() {
+        const selector = SELECTORS.ANDROID.BACK_PHOTO;
+        return $$(selector)[1];
+    }
+
     get photoClickButton() {
         const selector = SELECTORS.ANDROID.CLICK_PHOTO;
         return $$(selector)[2];
@@ -156,6 +161,11 @@ class NewUserPage {
     clickTakePhotoButton() {
         this.takeAPhotoButton.waitForExist();
         this.takeAPhotoButton.touchAction('tap');
+    }
+
+    clickBackPhotoButton() {
+        this.backPhotoButton.waitForExist();
+        this.backPhotoButton.touchAction('tap');
     }
 
     clickPhotoClickButton() {

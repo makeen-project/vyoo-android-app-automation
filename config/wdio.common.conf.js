@@ -6,7 +6,7 @@ exports.config = {
   runner: 'local',
   framework: 'cucumber',
   specs: [
-    './tests/features/**/communitySwitch.feature'
+    './tests/features/**/createPost.feature'
   ],
   sync: true,
   logLevel: 'error',
