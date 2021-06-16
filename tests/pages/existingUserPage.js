@@ -150,6 +150,7 @@ class ExistingUserPage {
     }
 
     clickRateApp() {
+        driver.pause(30000);
         this.rateApp.waitForExist();
         this.rateApp.touchAction('tap');
     }

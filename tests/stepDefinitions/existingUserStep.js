@@ -30,8 +30,9 @@ Then(/^I should be on community selection page$/, () => {
 
 When(/^I select the existing community$/, () => {
     existingUserPage.selectExistingCommunity();
-    existingUserPage.clickTurnOnLocation();
-    existingUserPage.clickRateApp();
+    existingUserPage.clickAllow();
+   // existingUserPage.clickTurnOnLocation();
+   // existingUserPage.clickRateApp();
 });
 
 Then(/^I should be able to navigate to the app homepage$/, () => {

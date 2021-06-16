@@ -24,6 +24,7 @@
     "chromedriver": "^81.0.0",
     "detox": "^18.16.0",
     "glob": "7.1.4",
+    "mocha": "^8.4.0",
     "webdriverio": "^6.11.3"
   },
   "dependencies": {
