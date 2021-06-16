@@ -3,8 +3,8 @@ class CreatePostPage {
 
     get createPostCTA() {
         const selector = SELECTORS.ANDROID.CREATE_POST_CTA;
-        console.log("count:" + $$(selector).length);
-        return $$(selector)[4];
+        console.log("post count:" + $$(selector).length);
+        return $$(selector)[3];
     }
 
     get createPostTextField() {
@@ -22,27 +22,39 @@ class CreatePostPage {
         return $(selector);
     }
 
-    get addYoutubeVideoLinks() {
-        const selector = SELECTORS.ANDROID.ADD_YOUTUBE_VIDEO_LINK;
-        console.log("button:" + $$(selector).length);
-        return $$(selector)[22];
+    get addYoutubeVideoLink() {
+        const selector = SELECTORS.ANDROID.YOUTUBE_VIDEO_LINK;
+      //  console.log("button:" + $$(selector).length);
+        return $(selector);
     }
+
+    // get addYoutubeVideoLinks() {
+    //     const selector = SELECTORS.ANDROID.ADD_YOUTUBE_VIDEO_LINK;
+    //     console.log("button:" + $$(selector).length);
+    //     return $$(selector)[21];
+    // }
 
     get youtubeUrlField() {
         const selector = SELECTORS.ANDROID.YOUTUBE_URL_FIELD;
         return $(selector);
     }
 
+    get scrollPageUp() {
+        const selector = SELECTORS.ANDROID.SCROLL_PAGE_UP;
+        console.log("button photo:" + $$(selector).length);
+        return $$(selector)[20];
+    }
+
     get addPhotoOption() {
         const selector = SELECTORS.ANDROID.ADD_PHOTO_OPTION;
-        console.log("button photo:" + $$(selector).length);
-        return $$(selector)[22];
+       // console.log("button photo:" + $$(selector).length);
+        return $(selector);
     }
 
     get addPollOption() {
         const selector = SELECTORS.ANDROID.CREATE_POLL_OPTION;
-        console.log("poll button:" + $$(selector).length);
-        return $$(selector)[24];
+       // console.log("poll button:" + $$(selector).length);
+        return $(selector);
     }
 
     get pollquestion() {
@@ -106,9 +118,15 @@ class CreatePostPage {
         this.cancelPostButton.touchAction('tap');
     }
 
+    clickToScrollPageUp() {
+        driver.pause(30000);
+        this.scrollPageUp.waitForExist();
+        this.scrollPageUp.touchAction('tap');
+    }
+
     clickOnAddYoutubeVideoLink() {
-        this.addYoutubeVideoLinks.waitForExist();
-        this.addYoutubeVideoLinks.touchAction('tap');
+        this.addYoutubeVideoLink.waitForExist();
+        this.addYoutubeVideoLink.touchAction('tap');
     }
 
     clickOnYoutubeField() {

@@ -13,6 +13,7 @@ const NEW_USER_SELECTORS = {
         TAKE_A_PHOTO: '//android.widget.TextView[@text="Take a photo"]',
         ALLOW_PHOTO_CLICK_ACCESS: '//android.widget.Button[@text="ALLOW"]',
         ALLOW_AUDIO_ACCESS: '//android.widget.Button[@text="ALLOW"]',
+        BACK_PHOTO: '//android.widget.Button',
         CLICK_PHOTO: '//android.widget.Button',
         ADD_PHOTO_PAGE_NEXT_BUTTON: '//android.widget.Button[android.widget.TextView[contains(@text, "Next")]]',
         DATE_OF_BIRTH_FIELD: '//android.view.ViewGroup[android.widget.TextView[contains(@text, "Date of Birth")]]/parent::android.widget.Button',

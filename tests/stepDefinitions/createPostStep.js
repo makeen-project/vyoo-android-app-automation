@@ -28,16 +28,19 @@ When(/^I add (\w+)$/, (type) => {
 });
 
 When(/^I add photo in the post$/, () => {
+    createPostPage.clickToScrollPageUp();
     createPostPage.clickOnAddPhotoOption();
     newUserPage.clickTakePhotoButton();
     newUserPage.clickAllowPhotoAccess();
     newUserPage.clickAllowAudioAccess();
+    newUserPage.clickBackPhotoButton();
     driver.pause(10000);
     newUserPage.clickPhotoClickButton();
     driver.pause(10000);
 });
 
 When(/^I click on create poll option$/, () => {
+    createPostPage.clickToScrollPageUp();
     createPostPage.clickOnCreatePollOption();
 
 });
