@@ -2,14 +2,15 @@ const communitySwitchPage = require('../pages/communitySwitchPage');
 const existingUserPage = require('../pages/existingUserPage');
 
 When(/^I unselect other communities$/, () => {
-    communitySwitchPage.clickToUnselectCommunityOne();
-   // communitySwitchPage.clickToUnselectCommunityTwo();
+    //communitySwitchPage.clickToUnselectCommunityOne();
+   communitySwitchPage.clickToUnselectCommunityTwo();
 });
 
 When(/^I select one community$/, () => {
     communitySwitchPage.clickToSelectOneCommunity();
-    existingUserPage.clickTurnOnLocation();
-    existingUserPage.clickRateApp();
+    existingUserPage.clickAllow();
+    //existingUserPage.clickTurnOnLocation();
+   // existingUserPage.clickRateApp();
 });
 
 When(/^I navigate to community switching window$/, () => {

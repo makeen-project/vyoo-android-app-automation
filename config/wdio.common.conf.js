@@ -6,14 +6,14 @@ exports.config = {
   runner: 'local',
   framework: 'cucumber',
   specs: [
-    './tests/features/**/onboardingExistingUser.feature'
+    './tests/features/**/communitySwitch.feature'
   ],
   sync: true,
   logLevel: 'error',
   deprecationWarnings: true,
   bail: 0,
-  waitforTimeout: 600000,
-  connectionRetryTimeout: 600000,
+  waitforTimeout: 60000,
+  connectionRetryTimeout: 60000,
   connectionRetryCount: 1,
   maxInstances: 1,
 
@@ -47,7 +47,7 @@ exports.config = {
   cucumberOpts: {
     require: require('glob').sync('./tests/stepDefinitions/*.js'),
     ignoreUndefinedDefinitions: true,
-    timeout: 600000
+    timeout: 60000
   },
 
   before: function () {

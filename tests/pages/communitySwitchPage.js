@@ -1,10 +1,10 @@
 const SELECTORS = require('../elements/communitySwitchElements');
 class CommunitySwitchPage {
 
-    get unselectCommunityOne() {
-        const selector = SELECTORS.ANDROID.UNSELECT_COMMUNITY_ONE;
-        return $$(selector)[1];
-    }
+    // get unselectCommunityOne() {
+    //     const selector = SELECTORS.ANDROID.UNSELECT_COMMUNITY_ONE;
+    //     return $$(selector)[1];
+    // }
 
     get unselectCommunityTwo() {
         const selector = SELECTORS.ANDROID.UNSELECT_COMMUNITY_TWO;
@@ -33,7 +33,7 @@ class CommunitySwitchPage {
 
     get joinCommunity() {
         const selector = SELECTORS.ANDROID.JOIN_COMMUNITY_BUTTON;
-        return $$(selector)[1];
+        return $(selector);
     }
 
     get newCommunityText() {
@@ -41,10 +41,10 @@ class CommunitySwitchPage {
         return $(selector);
     }
 
-    clickToUnselectCommunityOne() {
-        this.unselectCommunityOne.waitForExist();
-        this.unselectCommunityTwo.touchAction('tap');
-    }
+    // clickToUnselectCommunityOne() {
+    //     this.unselectCommunityOne.waitForExist();
+    //     this.unselectCommunityOne.touchAction('tap');
+    // }
 
     clickToUnselectCommunityTwo() {
         this.unselectCommunityTwo.waitForExist();

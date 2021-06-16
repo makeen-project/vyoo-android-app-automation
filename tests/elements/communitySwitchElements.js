@@ -1,8 +1,8 @@
 const COMMUNITIY_SWITCH_SELECTORS = {
     ANDROID: {
 
-        UNSELECT_COMMUNITY_ONE: '//android.widget.Button[android.view.ViewGroup]/parent::android.view.ViewGroup',
-        UNSELECT_COMMUNITY_TWO: '//android.widget.Button[android.view.ViewGroup]/parent::android.view.ViewGroup',
+     //   UNSELECT_COMMUNITY_ONE: '//android.widget.Button[android.view.ViewGroup]/parent::android.view.ViewGroup',
+       UNSELECT_COMMUNITY_TWO: '//android.widget.Button[android.view.ViewGroup]/parent::android.view.ViewGroup',
         SELECT_COMMUNITY_BUTTON: '//android.widget.TextView[@text="Enter selected Communities"]',
         COMMUNITY_SWITCH_BUTTON: '//android.view.ViewGroup[android.widget.TextView[contains(@text, "professionalcommunity")]]/parent::android.widget.Button',
         CANCEL_BUTTON: '//android.widget.Button[android.widget.TextView[contains(@text, "Cancel")]]',

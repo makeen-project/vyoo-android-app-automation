@@ -17,8 +17,8 @@ config.capabilities = [
         // http://appium.io/docs/en/writing-running-appium/caps/
         // This is `appium:` for all Appium Capabilities which can be found here
         //Add the Device name and Android version as per execution
-        deviceName: 'c341a458',
-        platformVersion: '10',
+        deviceName: 'Pixel_2_API_28',
+        platformVersion: '9',
         orientation: 'PORTRAIT',
 
         // `automationName` will be mandatory, see
