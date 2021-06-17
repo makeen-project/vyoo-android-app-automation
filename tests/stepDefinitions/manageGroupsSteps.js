@@ -3,6 +3,8 @@ const existingUserPage = require('../pages/existingUserPage');
 
 When(/^I tap on Humburger menu$/, () => {
     manageGroupsPage.selectHumburgerMenu();
+    driver.pause(10000);
+    manageGroupsPage.swipeDownPage();
 });
 
 When(/^I select groups button$/, () => {
@@ -32,6 +34,7 @@ When(/^I enter group name in (\w+)$/, (type) => {
 
 When(/^I enable the group chat$/, () => {
     manageGroupsPage.clickToEnableGroupChat();
+    manageGroupsPage.swipeDownPage();
     manageGroupsPage.swipeDownPage();
     manageGroupsPage.swipeDownPage();
 });

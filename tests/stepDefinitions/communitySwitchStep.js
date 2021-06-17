@@ -8,8 +8,8 @@ When(/^I unselect other communities$/, () => {
 
 When(/^I select one community$/, () => {
     communitySwitchPage.clickToSelectOneCommunity();
-    existingUserPage.clickAllow();
-    //existingUserPage.clickTurnOnLocation();
+    //existingUserPage.clickAllow();
+    existingUserPage.clickTurnOnLocation();
    // existingUserPage.clickRateApp();
 });
 
