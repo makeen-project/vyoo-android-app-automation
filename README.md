@@ -2,10 +2,11 @@
 Automation Framework for Vyoo Android App
 
 # Prerequisite:
-  1. Java 
-  2. Node.js installation
+  1. Java version: `1.8.0_291`
+  2. Node.js version: `v12.16.2`
   3. NPM installation
   4. Verify above prerequite by java --version, node -v and npm -v
+  5. Install appium with this command `npm install -g appium`
 
   # Creating virtual android device through command line
 
