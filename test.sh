@@ -1,6 +1,6 @@
 Run the below commands to run the framework
 
-clone the repo 
+`git clone https://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@github.com/makeen-project/vyoo-android-app-automation.git` 
 `npm install`
 `npm install -g appium`
 `$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --list`
