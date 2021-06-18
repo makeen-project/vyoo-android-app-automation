@@ -2,7 +2,7 @@
 Automation Framework for Vyoo Android App
 
 # Prerequisite:
-  1. Java version: `1.8.0_291`
+  1. Java version: `11.0.11`
   2. Node.js version: `v12.16.2`
   3. NPM installation
   4. Verify above prerequite by java --version, node -v and npm -v
@@ -10,18 +10,18 @@ Automation Framework for Vyoo Android App
 
   # Creating virtual android device through command line
 
-1. List All System Images Available for Download: `sdkmanager --list | grep system-images`
-2. Download Image: `sdkmanager --install "system-images;android-29;google_apis;x86_64"`
-3. Create Emulator: `echo "no" | avdmanager --verbose create avd --force --name "pixel_10_64bit" --device "pixel" --package "system-images;android-29;google_apis;x86_64" --tag "google_apis" --abi "x86_64"`
+1. List All System Images Available for Download: `$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --list`
+2. Download Image: `$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --install "system-images;android-29;google_apis;x86_64"`
+3. Create Emulator: `echo "no" | $ANDROID_HOME/cmdline-tools/latest/bin/avdmanager --verbose create avd --force --name "Google_Pixel_Android_10" --device "pixel" --package "system-images;android-29;google_apis;x86_64" --tag "google_apis" --abi "x86_64"`
 4. For a list of AVD name: `emulator -list-avds`
-5. Run the emulator: `emulator @pixel_10_64bit`
+5. Run the emulator: `emulator @Google_Pixel_Android_10`
 
 # To run the framework use following steps:-
   1. Clone this repository using `git clone https://github.com/makeen-project/vyoo-android-app-automation.git`
   2. Run command `yarn install` or `npm install`, to install all dependencies.
   3. Create App folder in current directory if it's missing and download Vyoo dev app and put .apk file in app folder.
   4. Follow the above steps to create a virtual device
-  5. Run `emulator @pixel_10_64bit` this command to start the emulator
+  5. Run `emulator @Google_Pixel_Android_10` this command to start the emulator
   6. Add configuration of the emulator in device desired capabilities in `wdio.android.config.js`
   7. Run command `npm run android.app` to run android test
   8. After tests "allure-results" folder will be generated, which will contain test results.
