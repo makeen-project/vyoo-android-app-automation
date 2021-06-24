@@ -32,6 +32,8 @@ config.capabilities = [
         // http://appium.io/docs/en/writing-running-appium/other/reset-strategies/
         noReset: false,
 
+        isHeadless: true,
+
         newCommandTimeout: 240,
     },
 ];
