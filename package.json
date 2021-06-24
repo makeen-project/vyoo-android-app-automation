@@ -21,10 +21,11 @@
     "@wdio/sync": "^6.11.0",
     "chai": "4.2.0",
     "chai-string": "1.5.0",
-    "chromedriver": "^81.0.0",
-    "detox": "^18.16.0",
+    "chromedriver": "^83.0.0",
+    "wdio-chromedriver-service": "^6.0.3",
     "glob": "7.1.4",
     "mocha": "^8.4.0",
+    "appium": "^1.21.0",
     "webdriverio": "^6.11.3"
   },
   "dependencies": {
