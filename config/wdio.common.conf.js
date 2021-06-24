@@ -41,7 +41,8 @@ appium: {
     command: 'appium',
     args: {},
 },
-port: 4723,
+address: '0.0.0.0',
+Localhost:4723,
 path: '/wd/hub',
 
   reporters: ['allure', 'spec'],
