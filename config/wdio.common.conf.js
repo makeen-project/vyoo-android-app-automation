@@ -20,30 +20,21 @@ exports.config = {
   // ====================
   // Appium Configuration
   // ====================
-  // services: [
-  //   ['appium', {
-  //     command: 'appium',
-
-  //     args: {
-  //       // ...
-  //       address: '0.0.0.0',
-  //       port: 4723,
-  //       basePath: '/wd/hub',
-  //       // ...
-  //     }
-  //   }]
-  // ],
-
   services: [
-    'appium'
-],
-appium: {
-    command: 'appium',
-    args: {},
-},
-address: '0.0.0.0',
-Localhost:4723,
-path: '/wd/hub',
+    ['appium', {
+    //  command: 'appium',
+
+      args: {
+        // ...
+        address: '0.0.0.0',
+        port: 4723,
+        basePath: '/wd/hub',
+        relaxedSecurity: true,
+        // ...
+      }
+    }]
+  ],
+
 
   reporters: ['allure', 'spec'],
   reporterOptions: {
