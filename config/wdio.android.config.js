@@ -17,26 +17,25 @@ config.capabilities = [
         // http://appium.io/docs/en/writing-running-appium/caps/
         // This is `appium:` for all Appium Capabilities which can be found here
         //Add the Device name and Android version as per execution
-        deviceName: 'Google_Pixel_Android_10',
-        platformVersion: '10',
-        orientation: 'PORTRAIT',
+        'appium:deviceName': 'Google_Pixel_Android_10',
+        'appium:platformVersion': '10',
+        'appium:orientation': 'PORTRAIT',
 
         // `automationName` will be mandatory, see
         // https://github.com/appium/appium/releases/tag/v1.13.0
-        automationName: 'UiAutomator2',
+        'appium:automationName': 'UiAutomator2',
 
         // The path to the app
-        app: rootPath + 'app/app-vyoo-universal-dev.apk',
+        'appium:app': rootPath + 'app/app-vyoo-universal-dev.apk',
 
         // Read the reset strategies very well, they differ per platform, see
         // http://appium.io/docs/en/writing-running-appium/other/reset-strategies/
-        noReset: false,
+        'appium:noReset': false,
 
-        isHeadless: true,
+        'appium:isHeadless': true,
 
-        newCommandTimeout: 240,
+        'appium:newCommandTimeout': 240,
     },
 ];
 
 exports.config = config;
-
