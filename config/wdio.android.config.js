@@ -35,6 +35,8 @@ config.capabilities = [
         'appium:isHeadless': true,
 
         'appium:newCommandTimeout': 240,
+
+        'appium:ignoreHiddenApiPolicyError': true
     },
 ];
 
