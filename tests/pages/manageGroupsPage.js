@@ -19,7 +19,7 @@ class ManageGroupsPage {
     get addGroupButton() {
         const selector = SELECTORS.ANDROID.ADD_GROUP_BUTTON;
         console.log("count group page"+$$(selector).length);
-        return $$(selector)[12];
+        return $$(selector)[14];
     }
 
     get cancelGroupButton() {
@@ -108,7 +108,6 @@ class ManageGroupsPage {
     }
 
     clickToAddGroup() {
-        driver.pause(20000);
         this.addGroupButton.waitForExist();
         this.addGroupButton.touchAction('tap');
     }

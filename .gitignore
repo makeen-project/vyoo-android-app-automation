@@ -28,9 +28,7 @@ Thumbs.db
 *.ipa
 
 # Screenshots and allure reports
-allure-results/
-screenshots/
-allure-report/
+report/
 
 # package-lock.json and yarn.lock
 package-lock.json

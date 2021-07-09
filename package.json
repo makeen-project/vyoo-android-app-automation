@@ -11,7 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "@rpii/wdio-html-reporter": "~6.3.2",
-    "@wdio/allure-reporter": "^6.8.1",
+    "@wdio/allure-reporter": "^6.11.0",
     "@wdio/appium-service": "^6.11.0",
     "@wdio/cli": "^6.0.1",
     "@wdio/cucumber-framework": "^6.11.1",
@@ -19,14 +19,17 @@
     "@wdio/mocha-framework": "^6.10.4",
     "@wdio/spec-reporter": "^6.11.0",
     "@wdio/sync": "^6.11.0",
+    "appium": "^1.21.0",
     "chai": "4.2.0",
     "chai-string": "1.5.0",
     "chromedriver": "^83.0.0",
-    "wdio-chromedriver-service": "^6.0.3",
     "glob": "7.1.4",
     "mocha": "^8.4.0",
-    "appium": "^1.21.0",
-    "webdriverio": "^6.11.3"
+    "wdio-chromedriver-service": "^6.0.3",
+    "webdriverio": "^6.11.3",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "prettier": "^2.2.1",
+    "wdio-cucumberjs-json-reporter": "^2.0.3"
   },
   "dependencies": {
     "allure-commandline": "^2.13.8",
