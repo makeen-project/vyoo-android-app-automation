@@ -9,7 +9,7 @@ const NEW_USER_SELECTORS = {
         FIRST_NAME_FIELD: '//android.view.ViewGroup[android.widget.TextView[contains(@text, "First Name *")]]/preceding-sibling::android.widget.EditText',
         LAST_NAME_FIELD: '//android.view.ViewGroup[android.widget.TextView[contains(@text, "Last Name *")]]/preceding-sibling::android.widget.EditText',
         PERSONAL_DETAILS_NEXT_BUTTON: '//android.widget.Button[android.widget.TextView[contains(@text, "Next")]]',
-        ADD_PHOTO_BUTTON: '//android.widget.Button[android.widget.ImageView]',
+        ADD_PHOTO_BUTTON: '//android.widget.Button[android.view.ViewGroup]',
         TAKE_A_PHOTO: '//android.widget.TextView[@text="Take a photo"]',
         ALLOW_PHOTO_CLICK_ACCESS: '//android.widget.Button[@text="ALLOW"]',
         ALLOW_AUDIO_ACCESS: '//android.widget.Button[@text="ALLOW"]',
@@ -45,7 +45,7 @@ const NEW_USER_SELECTORS = {
         SECOND_INTEREST: '//android.widget.Button[android.widget.TextView[contains(@text, "Communications")]]',
         THIRD_INTEREST: '//android.widget.Button[android.widget.TextView[contains(@text, "Arts")]]',
         INTEREST_PAGE_NEXT_BUTTON: '//android.widget.Button[android.widget.TextView[contains(@text, "Next")]]',
-        VYOO_PAGE_CONTINUE_BUTTON: '//android.widget.Button[android.widget.TextView[contains(@text, "Continue")]]',
+        VYOO_PAGE_CONTINUE_BUTTON: '//android.widget.Button[android.widget.TextView]/parent::android.view.ViewGroup',
         GET_CONNECTED_NOT_NOW_BUTTON: '//android.widget.Button[android.widget.TextView[contains(@text, "Not now")]]',
     },
 }

@@ -43,7 +43,8 @@ class NewUserPage {
 
     get addPhotoButton() {
         const selector = SELECTORS.ANDROID.ADD_PHOTO_BUTTON;
-        return $(selector);
+        console.log("button count:" + $$(selector).length);
+        return $$(selector)[4];
     }
 
     get takeAPhotoButton() {
@@ -154,6 +155,7 @@ class NewUserPage {
     }
 
     clickAddPhotoButton() {
+        driver.pause(5000);
         this.addPhotoButton.waitForExist();
         this.addPhotoButton.touchAction('tap');
     }

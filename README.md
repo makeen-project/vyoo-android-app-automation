@@ -24,11 +24,8 @@ Automation Framework for Vyoo Android App
   5. Run `$ANDROID_HOME/emulator/emulator @Android_device` this command to start the emulator
   6. Add configuration of the emulator in device desired capabilities in `wdio.android.config.js`
   7. Run command `npm run android.app` to run android test
-  8. After tests "allure-results" folder will be generated, which will contain test results.
-  9. To view test reports navigate to root directory of repository and run command "allure generate -c allure-results/ && allure open"**
 
 # Notes:-
   1. To get device udid type following command "adb devices" and copy serial id in second line.
   2. Install appium from :- http://appium.io/docs/en/about-appium/getting-started/
   3. Install Android Studio from :- https://developer.android.com/studio/
-  4. To use allure commands, you need to install allure, use command: npm install @wdio/allure-reporter --save-dev

@@ -43,7 +43,8 @@ class NewUserPage2 {
 
     get vyooPageContinueButton() {
         const selector = SELECTORS.ANDROID.VYOO_PAGE_CONTINUE_BUTTON;
-        return $$(selector)[1];
+        console.log("button count:" + $$(selector).length);
+        return $$(selector)[20];
     }
 
     get connectedNotNowButton() {
