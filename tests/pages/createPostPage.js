@@ -4,7 +4,7 @@ class CreatePostPage {
     get createPostCTA() {
         const selector = SELECTORS.ANDROID.CREATE_POST_CTA;
         console.log("post count:" + $$(selector).length);
-        return $$(selector)[3];
+        return $$(selector)[4];
     }
 
     get createPostTextField() {
@@ -42,7 +42,7 @@ class CreatePostPage {
     get scrollPageUp() {
         const selector = SELECTORS.ANDROID.SCROLL_PAGE_UP;
         console.log("button photo:" + $$(selector).length);
-        return $$(selector)[20];
+        return $$(selector)[21];
     }
 
     get addPhotoOption() {
@@ -119,7 +119,7 @@ class CreatePostPage {
     }
 
     clickToScrollPageUp() {
-        driver.pause(30000);
+        driver.pause(5000);
         this.scrollPageUp.waitForExist();
         this.scrollPageUp.touchAction('tap');
     }
