@@ -1,3 +1,4 @@
+const cucumberJson = require('wdio-cucumberjs-json-reporter').default;
 exports.config = {
   // ====================
   // Runner and framework
@@ -6,7 +7,7 @@ exports.config = {
   runner: 'local',
   framework: 'cucumber',
   specs: [
-    './tests/features/**/onboardingExistingUser.feature'
+    './tests/features/**/manageGroups.feature'
   ],
   sync: true,
   logLevel: 'error',
@@ -22,13 +23,13 @@ exports.config = {
   // ====================
   services: [
     ['appium', {
-    //  command: 'appium',
+      //  command: 'appium',
 
       args: {
         // ...
         address: '127.0.0.1',
         port: 4723,
-       // basePath: '/wd/hub',
+        // basePath: '/wd/hub',
         relaxedSecurity: true,
         // ...
       }
@@ -36,15 +37,7 @@ exports.config = {
   ],
 
 
-  reporters: ['allure', 'spec'],
-  reporterOptions: {
-    allure: {
-        outputDir: 'allure-results',
-        disableWebdriverStepsReporting: false,
-        disableWebdriverScreenshotsReporting: false,
-        useCucumberStepReporter: true
-    }
-},
+  reporters: ['spec', ['cucumberjs-json', { jsonFolder: './report/' }]],
 
   cucumberOpts: {
     require: require('glob').sync('./tests/stepDefinitions/*.js'),
@@ -66,15 +59,33 @@ exports.config = {
     global.Given = cucumber.Given;
     global.Then = cucumber.Then;
     global.When = cucumber.When;
+    global.reporter = require('wdio-cucumberjs-json-reporter').cucumberJson;
   },
 
-  afterStep: function (stepResult) {
-    if (stepResult.status == "failed") {
-      let screenshotPath = path.join(__dirname, '/screenshots');
-      let screenshotName = stepResult.scenario + '-' + stepResult.text + '.png';
-      let fileName = screenshotPath + screenshotName.replace(/\s/g, '');
-      browser.saveScreenshot(fileName);
-    }
+  afterStep(uri, feature, result) {
+    if (!result.passed)
+      cucumberJson.attach(browser.takeScreenshot(), 'image/png');
   },
+  onComplete(exitCode, config, capabilities, results) {
+    const report = require('multiple-cucumber-html-reporter');
+    report.generate({
+      jsonDir: './report/',
+      reportPath: './report/',
+      openReportInBrowser: true,
+      pageTitle: 'Vyoo Android app Functional Tests',
+      pageFooter:
+        '<div><p> &nbsp &nbsp &nbsp A report for Vyoo Android app functional tests</p></div>',
+      durationInMS: true,
+      reportName: 'Vyoo Android app Functional Tests',
+    });
+  }
 
 };
+
+
+
+
+
+
+
+

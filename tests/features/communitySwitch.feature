@@ -1,4 +1,4 @@
-Feature: Vyoo App - switching community feature
+Feature: Vyoo App - Switching community feature
   As a Vyoo App user,
   I should be able to switch between communities
 

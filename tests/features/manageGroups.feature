@@ -22,15 +22,13 @@ Feature: Vyoo App - Manage Groups feature
         Then I should be on groups page
 
     Scenario: As an existing user, I should be able to discard from group creation
-        When I select groups button
-        And I click to create groups
+        When I click to create groups
         And I cancel the group creation
         And I dismiss the pop up
         Then I should be on groups page
 
     Scenario: As an existing user, I should be able to create groups
-        When I select groups button
-        And I click to create groups
+        When I click to create groups
         And I enter group name in group_details
         And I enable the group chat
         And I write the group description in group_details

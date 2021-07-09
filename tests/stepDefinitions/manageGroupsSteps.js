@@ -15,10 +15,10 @@ When(/^I select groups button$/, () => {
 Then(/^I should be on groups page$/, () => {
     driver.pause(1000);
     expect(manageGroupsPage.verifyGroupPageTitle()).to.equal(true);
-    driver.back();
 });
 
 When(/^I click to create groups$/, () => {
+    driver.pause(1000);
     manageGroupsPage.clickToAddGroup();
 });
 
